@@ -110,16 +110,18 @@ Write your solution using:
 
 const exercise1Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+
+
 // Your solution here (one-line arrow function):
-// const exercise1Result1 = 
-
+const exercise1Result1 = exercise1Array.filter(n => n % 2 !== 0);
 // Your solution here (regular arrow function):
-// const exercise1Result2 = 
-
+const exercise1Result2 = exercise1Array.filter((n) => {
+  return n % 2 !== 0;
+});
 // Uncomment to test:
-// console.log("Exercise 1 - One-line:", exercise1Result1);
-// console.log("Exercise 1 - Regular:", exercise1Result2);
-// Expected: [1, 3, 5, 7, 9]
+ console.log("Exercise 1 - One-line:", exercise1Result1);
+ console.log("Exercise 1 - Regular:", exercise1Result2);
+ Expected: [1, 3, 5, 7, 9]
 
 /*
 EXERCISE 2
@@ -133,17 +135,19 @@ Write your solution using:
 */
 
 const exercise2Array = ["apple", "banana", "kiwi", "orange", "grape"];
-
 // Your solution here (one-line arrow function):
 // const exercise2Result1 = 
+const exercise2Result1 = exercise2Array.filter(fruit => fruit.length >= 5);
 
 // Your solution here (regular arrow function):
 // const exercise2Result2 = 
-
+const exercise2Result2 = exercise2Array.filter((fruit) => {
+  return fruit.length >= 5;
+});
 // Uncomment to test:
-// console.log("Exercise 2 - One-line:", exercise2Result1);
-// console.log("Exercise 2 - Regular:", exercise2Result2);
-// Expected: ["apple", "banana", "orange", "grape"]
+ console.log("Exercise 2 - One-line:", exercise2Result1);
+ console.log("Exercise 2 - Regular:", exercise2Result2);
+ Expected: ["apple", "banana", "orange", "grape"]
 
 /*
 EXERCISE 3
