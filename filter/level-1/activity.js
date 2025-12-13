@@ -164,14 +164,16 @@ const exercise3Array = [15, 8, 22, 5, 30, 12, 18];
 
 // Your solution here (one-line arrow function):
 // const exercise3Result1 = 
+const exercise3Result1 = [15, 12, 18, 22, 30
 
 // Your solution here (regular arrow function):
 // const exercise3Result2 = 
+const exercise3Result2 = [5, 8
 
 // Uncomment to test:
-// console.log("Exercise 3 - One-line:", exercise3Result1);
-// console.log("Exercise 3 - Regular:", exercise3Result2);
-// Expected: [15, 22, 30, 12, 18]
+console.log("Exercise 3 - One-line:", exercise3Result1);
+console.log("Exercise 3 - Regular:", exercise3Result2);
+Expected: [15, 22, 30, 12, 18]
 
 /*
 EXERCISE 4
@@ -189,7 +191,10 @@ Write your solution using:
 const exercise4Array = ["red", "blue", "green", "yellow", "purple"];
 
 // Your solution here (one-line arrow function):
-// const exercise4Result1 = 
+const exercise4Result1 = [blue
+const exercise4Array = ["red", "blue", "green", "yellow", "purple"];
+
+// Your solution here (one-line arrow function):
 
 // Your solution here (regular arrow function):
 // const exercise4Result2 = 
