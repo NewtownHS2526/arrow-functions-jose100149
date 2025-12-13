@@ -32,15 +32,15 @@ const exercise1Array = [
 ];
 
 // Your solution here (one-line arrow function):
-// const exercise1Result1 = 
+const exercise1Result1 = 
 
-// Your solution here (regular arrow function):
-// const exercise1Result2 = 
+//Your solution here (regular arrow function):
+const exercise1Result2 = 
 
 // Uncomment to test:
-// console.log("Exercise 1 - One-line:", exercise1Result1);
-// console.log("Exercise 1 - Regular:", exercise1Result2);
-// Expected: [{ name: "Alice", age: 25 }, { name: "Charlie", age: 30 }]
+console.log("Exercise 1 - One-line:", exercise1Result1);
+console.log("Exercise 1 - Regular:", exercise1Result2);
+Expected: [{ name: "Alice", age: 25 }, { name: "Charlie", age: 30 }]
 
 /*
 EXERCISE 2
